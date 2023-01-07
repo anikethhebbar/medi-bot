@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "Paracetemol",
+         "patterns": ["What are side effects of paracetemol?", "paracetemol?", "fever?", "I have Fever?","warm body","body temperature is high", "fever and paracetemol" ],
+         "responses": ["you might be using paracetemol. It might cause an allergic reaction, which can cause a rash and swelling. flushing, low blood pressure and a fast heartbeat. If you have any of these symptoms please consult a doctor ", "It seems like you are using paracetemol. Some common side effects are allergic reaction, low blood pressure,fast heart beat. If you notice any of the following symptoms, don't hesitate to seek medical attention."]
+        },
+        {"tag": "Cetrazine",
+         "patterns": ["What are side effects of cetrazine?","cpm", "cetrazine?", "cold?", "I have cold?","cold and runny nose","sneezing", "sinus" ],
+         "responses":["I can see that you might probably using Cetrazine.. some common side effects can be sore throat,dry mouth, headache, dizziness, diarrhoea.. please seek medical help if the symptoms bothers more", "It's possible that you are taking Cetrazine, which can cause side effects such as sore throat, dry mouth, headache, dizziness, and diarrhea. If these symptoms are causing you discomfort, it's important to seek medical help.", "If you are taking Cetrazine, you may experience side effects like sore throat, dry mouth, headache, dizziness, and diarrhea. If these symptoms are severe or persistent, it's a good idea to see a doctor for further evaluation and treatment."]
+        },
+        {"tag": "Azithromycin",
+         "patterns":["What are side effects of Azithromycin?", "sore throat", "throat pain","Throat infection", "throat tingling sensation", "azax", "anti biotic", "i have infection in my throat"],
+        "responses":["It's possible that you are taking Azithromycin, which might cause some common side effects like diarrhoea,skin problems,liver damage,heart rhythm problems,losing appetite", "You may experience side effects such as diarrhea, skin issues, liver damage, heart rhythm disturbances, and loss of appetite while taking Azithromycin.","Azithromycin has the potential to cause several side effects, including diarrhea, skin problems, liver damage, heart rhythm abnormalities, and loss of appetite."]
+        },
+        {"tag": "Nimesulide",
+         "patterns":["What are side effects of Nimesulide?", "Body Pain", "Joints pain","Leg pain", "Ache", "Back pain", "I am Tired after work", "i have pain in my back"],
+        "responses":["Nimesulide, a pain medication, may cause side effects such as nausea, vomiting, diarrhea, stomach or intestinal ulcers, skin redness, and allergic reactions like difficulty breathing, facial and lip swelling, and watery eyes. It can also elevate liver enzymes. If you experience any of these side effects, it is important to seek medical assistance.", "If you are taking Nimesulide, a painkiller, you may experience side effects like nausea, vomiting, loose stools, stomach or intestine ulcers, skin redness, and allergic reactions like difficulty breathing, swelling of the face and lips, and watery eyes. This medication can also increase liver enzymes. If you encounter any of these side effects, please seek medical help.", "Nimesulide, a pain medication, has the potential to cause side effects such as nausea, vomiting, diarrhea, stomach or intestinal ulcers, skin redness, and allergic reactions like difficulty breathing, facial and lip swelling, and watery eyes. It can also elevate liver enzymes. If you experience any of these side effects, it is important to seek medical attention."]
+        }
+
+        ]
+}
